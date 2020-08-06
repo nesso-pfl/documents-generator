@@ -7,6 +7,7 @@
   "author": "nesso",
   "license": "MIT",
   "devDependencies": {
+    "@types/gapi": "^0.0.39",
     "@types/node": "^14.0.27",
     "@typescript-eslint/eslint-plugin": "^3.8.0",
     "@typescript-eslint/parser": "^3.8.0",
@@ -21,5 +22,8 @@
   "scripts": {
     "dev": "ts-node src/index.ts",
     "lint": "eslint src/**/*.ts --cache"
+  },
+  "dependencies": {
+    "googleapis": "^58.0.0"
   }
 }
