@@ -1,3 +1,4 @@
 dist
+.eslintcache
 node_modules
 tsconfig.tsbuildinfo
