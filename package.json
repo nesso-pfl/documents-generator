@@ -1,0 +1,9 @@
+{
+  "name": "documents-generator",
+  "version": "1.0.0",
+  "description": "Generate documents about my business.",
+  "main": "index.js",
+  "repository": "https://github.com/nesso-pfl/documents-generator",
+  "author": "nesso",
+  "license": "MIT"
+}
