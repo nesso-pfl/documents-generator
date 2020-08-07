@@ -3,3 +3,6 @@ dist
 node_modules
 tsconfig.tsbuildinfo
 yarn-error.log
+
+src/credential.json
+src/token.json
