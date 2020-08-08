@@ -1,11 +1,7 @@
-import { google } from "googleapis";
-import getAuth from "./getAuth";
-import { createTimecard } from "./spreadsheet";
+import { createTimeCard } from "./timecard";
 
 const main = async (): Promise<void> => {
-  const auth = await getAuth();
-  const sheets = google.sheets({ version: "v4", auth });
-  const timecardId = await createTimecard(sheets, 2020, 7, "namename");
+  const timecardId = await createTimeCard(2020, 7, "namename", []);
   console.log(timecardId);
 };
 
